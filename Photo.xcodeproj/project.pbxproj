@@ -14,6 +14,21 @@
 		955ADD101E247406005FC39A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955ADD0E1E247406005FC39A /* LaunchScreen.storyboard */; };
 		955ADD1B1E247406005FC39A /* PhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955ADD1A1E247406005FC39A /* PhotoTests.swift */; };
 		955ADD261E247406005FC39A /* PhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955ADD251E247406005FC39A /* PhotoUITests.swift */; };
+		955ADD371E24773D005FC39A /* PhotoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955ADD361E24773D005FC39A /* PhotoListViewController.swift */; };
+		955ADD3A1E247B1C005FC39A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 955ADD3C1E247B1C005FC39A /* Localizable.strings */; };
+		955ADD531E247C64005FC39A /* PhotoUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955ADD521E247C64005FC39A /* PhotoUtil.swift */; };
+		955ADD551E247CE4005FC39A /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955ADD541E247CE4005FC39A /* common.swift */; };
+		955ADD571E249209005FC39A /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955ADD561E249209005FC39A /* PhotosViewController.swift */; };
+		955ADD591E249236005FC39A /* ScanPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955ADD581E249236005FC39A /* ScanPhotosViewController.swift */; };
+		955ADD6D1E24BCB7005FC39A /* AssetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955ADD6C1E24BCB7005FC39A /* AssetCollection.swift */; };
+		955ADD6F1E24C190005FC39A /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955ADD6E1E24C190005FC39A /* CollectionCell.swift */; };
+		955ADD711E24C597005FC39A /* photos.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 955ADD701E24C597005FC39A /* photos.bundle */; };
+		955ADD731E24E21A005FC39A /* AssetItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955ADD721E24E21A005FC39A /* AssetItemCell.swift */; };
+		955ADD751E24E5F9005FC39A /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955ADD741E24E5F9005FC39A /* Asset.swift */; };
+		955ADD781E25021F005FC39A /* hahhaha.m in Sources */ = {isa = PBXBuildFile; fileRef = 955ADD771E25021F005FC39A /* hahhaha.m */; };
+		955ADD7A1E253413005FC39A /* ChoosePhotosDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955ADD791E253413005FC39A /* ChoosePhotosDetailView.swift */; };
+		955ADD7C1E253424005FC39A /* ChoosePhotosOperateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955ADD7B1E253424005FC39A /* ChoosePhotosOperateView.swift */; };
+		955ADD7E1E265A95005FC39A /* ShowOriginImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955ADD7D1E265A95005FC39A /* ShowOriginImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +62,25 @@
 		955ADD211E247406005FC39A /* PhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		955ADD251E247406005FC39A /* PhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoUITests.swift; sourceTree = "<group>"; };
 		955ADD271E247406005FC39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		955ADD361E24773D005FC39A /* PhotoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoListViewController.swift; sourceTree = "<group>"; };
+		955ADD3B1E247B1C005FC39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		955ADD3E1E247B6A005FC39A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		955ADD3F1E247B6A005FC39A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		955ADD401E247B6A005FC39A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		955ADD521E247C64005FC39A /* PhotoUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoUtil.swift; sourceTree = "<group>"; };
+		955ADD541E247CE4005FC39A /* common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
+		955ADD561E249209005FC39A /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		955ADD581E249236005FC39A /* ScanPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanPhotosViewController.swift; sourceTree = "<group>"; };
+		955ADD6C1E24BCB7005FC39A /* AssetCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetCollection.swift; sourceTree = "<group>"; };
+		955ADD6E1E24C190005FC39A /* CollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
+		955ADD701E24C597005FC39A /* photos.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = photos.bundle; sourceTree = "<group>"; };
+		955ADD721E24E21A005FC39A /* AssetItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetItemCell.swift; sourceTree = "<group>"; };
+		955ADD741E24E5F9005FC39A /* Asset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		955ADD761E25021F005FC39A /* hahhaha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hahhaha.h; sourceTree = "<group>"; };
+		955ADD771E25021F005FC39A /* hahhaha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hahhaha.m; sourceTree = "<group>"; };
+		955ADD791E253413005FC39A /* ChoosePhotosDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoosePhotosDetailView.swift; sourceTree = "<group>"; };
+		955ADD7B1E253424005FC39A /* ChoosePhotosOperateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoosePhotosOperateView.swift; sourceTree = "<group>"; };
+		955ADD7D1E265A95005FC39A /* ShowOriginImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowOriginImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +132,14 @@
 			isa = PBXGroup;
 			children = (
 				955ADD051E247406005FC39A /* AppDelegate.swift */,
+				955ADD351E247735005FC39A /* Photo */,
 				955ADD071E247406005FC39A /* ViewController.swift */,
 				955ADD091E247406005FC39A /* Main.storyboard */,
 				955ADD0C1E247406005FC39A /* Assets.xcassets */,
 				955ADD0E1E247406005FC39A /* LaunchScreen.storyboard */,
 				955ADD111E247406005FC39A /* Info.plist */,
+				955ADD761E25021F005FC39A /* hahhaha.h */,
+				955ADD771E25021F005FC39A /* hahhaha.m */,
 			);
 			path = Photo;
 			sourceTree = "<group>";
@@ -123,6 +160,27 @@
 				955ADD271E247406005FC39A /* Info.plist */,
 			);
 			path = PhotoUITests;
+			sourceTree = "<group>";
+		};
+		955ADD351E247735005FC39A /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				955ADD361E24773D005FC39A /* PhotoListViewController.swift */,
+				955ADD561E249209005FC39A /* PhotosViewController.swift */,
+				955ADD581E249236005FC39A /* ScanPhotosViewController.swift */,
+				955ADD791E253413005FC39A /* ChoosePhotosDetailView.swift */,
+				955ADD7B1E253424005FC39A /* ChoosePhotosOperateView.swift */,
+				955ADD3C1E247B1C005FC39A /* Localizable.strings */,
+				955ADD521E247C64005FC39A /* PhotoUtil.swift */,
+				955ADD541E247CE4005FC39A /* common.swift */,
+				955ADD6C1E24BCB7005FC39A /* AssetCollection.swift */,
+				955ADD741E24E5F9005FC39A /* Asset.swift */,
+				955ADD6E1E24C190005FC39A /* CollectionCell.swift */,
+				955ADD701E24C597005FC39A /* photos.bundle */,
+				955ADD721E24E21A005FC39A /* AssetItemCell.swift */,
+				955ADD7D1E265A95005FC39A /* ShowOriginImageView.swift */,
+			);
+			path = Photo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +252,7 @@
 					955ADD011E247406005FC39A = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 4EQZ8J8P9Y;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					955ADD151E247406005FC39A = {
@@ -217,6 +276,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 955ADCF91E247406005FC39A;
 			productRefGroup = 955ADD031E247406005FC39A /* Products */;
@@ -236,6 +296,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				955ADD101E247406005FC39A /* LaunchScreen.storyboard in Resources */,
+				955ADD711E24C597005FC39A /* photos.bundle in Resources */,
+				955ADD3A1E247B1C005FC39A /* Localizable.strings in Resources */,
 				955ADD0D1E247406005FC39A /* Assets.xcassets in Resources */,
 				955ADD0B1E247406005FC39A /* Main.storyboard in Resources */,
 			);
@@ -263,7 +325,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				955ADD081E247406005FC39A /* ViewController.swift in Sources */,
+				955ADD531E247C64005FC39A /* PhotoUtil.swift in Sources */,
+				955ADD7E1E265A95005FC39A /* ShowOriginImageView.swift in Sources */,
+				955ADD6F1E24C190005FC39A /* CollectionCell.swift in Sources */,
+				955ADD751E24E5F9005FC39A /* Asset.swift in Sources */,
+				955ADD7A1E253413005FC39A /* ChoosePhotosDetailView.swift in Sources */,
+				955ADD7C1E253424005FC39A /* ChoosePhotosOperateView.swift in Sources */,
 				955ADD061E247406005FC39A /* AppDelegate.swift in Sources */,
+				955ADD571E249209005FC39A /* PhotosViewController.swift in Sources */,
+				955ADD731E24E21A005FC39A /* AssetItemCell.swift in Sources */,
+				955ADD6D1E24BCB7005FC39A /* AssetCollection.swift in Sources */,
+				955ADD591E249236005FC39A /* ScanPhotosViewController.swift in Sources */,
+				955ADD371E24773D005FC39A /* PhotoListViewController.swift in Sources */,
+				955ADD551E247CE4005FC39A /* common.swift in Sources */,
+				955ADD781E25021F005FC39A /* hahhaha.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +378,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				955ADD0A1E247406005FC39A /* Base */,
+				955ADD3E1E247B6A005FC39A /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -311,8 +387,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				955ADD0F1E247406005FC39A /* Base */,
+				955ADD3F1E247B6A005FC39A /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		955ADD3C1E247B1C005FC39A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				955ADD3B1E247B1C005FC39A /* en */,
+				955ADD401E247B6A005FC39A /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -322,6 +408,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -372,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -415,11 +503,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 4EQZ8J8P9Y;
 				INFOPLIST_FILE = Photo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aaaa.Photo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -428,6 +518,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 4EQZ8J8P9Y;
 				INFOPLIST_FILE = Photo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -514,6 +605,7 @@
 				955ADD2C1E247406005FC39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		955ADD2D1E247406005FC39A /* Build configuration list for PBXNativeTarget "PhotoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +614,7 @@
 				955ADD2F1E247406005FC39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		955ADD301E247406005FC39A /* Build configuration list for PBXNativeTarget "PhotoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +623,7 @@
 				955ADD321E247406005FC39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
